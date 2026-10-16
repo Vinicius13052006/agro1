@@ -216,7 +216,7 @@ button {
 .hero-bg {
     position: absolute;
     inset: -2%;
-    background-image: url('agro.jpeg');
+    background-image: url('');
     background-size: cover;
     background-position: center;
     animation: heroZoom 22s ease-in-out infinite alternate;
