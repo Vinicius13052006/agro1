@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b0d10">
+  <meta property="og:title" content="Agro Bela & Bala | Tudo para o campo e seus animais">
+  <meta property="og:description"
+    content="Nutrição animal, selaria, veterinária, jardinagem, pet shop e moda country em Pará de Minas - MG.">
+  <meta property="og:type" content="website">
   <meta name="description"
     content="Agro Bela & Bala em Pará de Minas-MG. Nutrição animal, selaria, veterinária, jardinagem, pet shop e moda country.">
   <title>Agro Bela & Bala | Tudo para o campo e seus animais</title>
@@ -42,20 +46,71 @@
   </header>
 
   <main>
-    <section class="hero" id="inicio">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-shade"></div>
-      <div class="hero-content container">
-        <span class="eyebrow"><span class="eyebrow-line"></span> SEU PARCEIRO NO CAMPO</span>
-        <h1>Tudo para o bem-estar<br>do seu <em>animal.</em></h1>
-        <p>Nutrição animal, selaria, veterinária, jardinagem e estilo country. Qualidade e atendimento próximo para quem
-          vive essa paixão.</p>
-        <div class="hero-actions">
-          <a href="#categorias" class="btn btn-gold">Explore nossos produtos <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="#sobre" class="btn btn-outline">Conheça a loja</a>
+    <section class="hero hero-slider" id="inicio" aria-roledescription="carrossel"
+      aria-label="Destaques da Agro Bela & Bala">
+      <div class="hero-slides">
+        <article class="hero-slide is-active" data-slide="0" aria-hidden="false">
+          <div class="hero-bg" aria-hidden="true"></div>
+          <div class="hero-shade"></div>
+          <div class="hero-content container">
+            <span class="eyebrow"><span class="eyebrow-line"></span> SEU PARCEIRO NO CAMPO</span>
+            <h1>Tudo para o bem-estar<br>do seu <em>animal.</em></h1>
+            <p>Nutrição animal, selaria, veterinária, jardinagem e estilo country. Qualidade e atendimento próximo para
+              quem vive essa paixão.</p>
+            <div class="hero-actions">
+              <a href="#categorias" class="btn btn-gold">Explore nossos produtos <i
+                  class="fa-solid fa-arrow-right"></i></a>
+              <a href="#sobre" class="btn btn-outline">Conheça a loja</a>
+            </div>
+            <div class="hero-note"><i class="fa-solid fa-location-dot"></i><span>Pará de Minas <b>·</b> Minas
+                Gerais</span></div>
+          </div>
+        </article>
+        <article class="hero-slide" data-slide="1" aria-hidden="true">
+          <div class="hero-bg hero-bg-two" aria-hidden="true"></div>
+          <div class="hero-shade"></div>
+          <div class="hero-content container">
+            <span class="eyebrow"><span class="eyebrow-line"></span> CUIDADO EM CADA DETALHE</span>
+            <h1>Mais cuidado.<br>Mais <em>bem-estar.</em></h1>
+            <p>Encontre opções para a rotina dos seus animais e conte com nossa equipe para consultar produtos e tirar
+              dúvidas.</p>
+            <div class="hero-actions">
+              <a href="#categorias" class="btn btn-gold">Conheça as categorias <i
+                  class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="btn btn-outline whatsapp-link"
+                data-message="Olá! Gostaria de consultar produtos para meus animais.">Consultar pelo WhatsApp</a>
+            </div>
+            <div class="hero-note"><i class="fa-solid fa-paw"></i><span>Para os animais e para quem cuida deles</span>
+            </div>
+          </div>
+        </article>
+        <article class="hero-slide" data-slide="2" aria-hidden="true">
+          <div class="hero-bg hero-bg-three" aria-hidden="true"></div>
+          <div class="hero-shade"></div>
+          <div class="hero-content container">
+            <span class="eyebrow"><span class="eyebrow-line"></span> TRADIÇÃO E ESTILO COUNTRY</span>
+            <h1>A paixão pelo campo<br>está em cada <em>detalhe.</em></h1>
+            <p>Da selaria à moda country, descubra categorias para acompanhar você dentro e fora da lida.</p>
+            <div class="hero-actions">
+              <a href="#categorias" class="btn btn-gold">Explore a loja <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#eventos" class="btn btn-outline">Veja nossa agenda</a>
+            </div>
+            <div class="hero-note"><i class="fa-solid fa-location-dot"></i><span>Agro Bela & Bala · Pará de Minas –
+                MG</span></div>
+          </div>
+        </article>
+      </div>
+      <div class="hero-controls" aria-label="Controles do banner">
+        <button class="hero-arrow hero-prev" type="button" aria-label="Banner anterior"><i
+            class="fa-solid fa-arrow-left"></i></button>
+        <div class="hero-dots" role="group" aria-label="Escolher banner">
+          <button class="hero-dot is-active" type="button" aria-label="Mostrar banner 1" aria-pressed="true"></button>
+          <button class="hero-dot" type="button" aria-label="Mostrar banner 2" aria-pressed="false"></button>
+          <button class="hero-dot" type="button" aria-label="Mostrar banner 3" aria-pressed="false"></button>
         </div>
-        <div class="hero-note"><i class="fa-solid fa-location-dot"></i><span>Pará de Minas <b>·</b> Minas Gerais</span>
-        </div>
+        <button class="hero-arrow hero-next" type="button" aria-label="Próximo banner"><i
+            class="fa-solid fa-arrow-right"></i></button>
+        <span class="hero-progress"><span></span></span>
       </div>
       <a href="#sobre" class="scroll-cue"><span></span> ROLE PARA DESCOBRIR</a>
     </section>
@@ -229,9 +284,10 @@
       <div class="footer-col">
         <h3>Redes sociais</h3>
         <p>Acompanhe produtos, novidades e eventos.</p>
-        <div class="socials"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#"
-            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" class="whatsapp-link"
-            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div>
+        <div class="socials"><a href="#" aria-label="Instagram" rel="noopener noreferrer"><i
+              class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i
+              class="fa-brands fa-facebook-f"></i></a><a href="#" class="whatsapp-link" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a></div>
       </div>
     </div>
     <div class="footer-bottom container"><span>© <span id="year"></span> Agro Bela & Bala. Todos os direitos
@@ -240,8 +296,8 @@
 
   <a href="#" class="floating-whatsapp whatsapp-link" target="_blank" rel="noopener"
     aria-label="Falar com a Agro Bela e Bala pelo WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-  <div class="lightbox" aria-hidden="true"><button class="lightbox-close"
-      aria-label="Fechar imagem">&times;</button><img src="" alt="Imagem ampliada"></div>
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visualização da imagem"><button
+      class="lightbox-close" aria-label="Fechar imagem">&times;</button><img src="" alt="Imagem ampliada"></div>
   <script src="script.js"></script>
 </body>
 
